@@ -3,6 +3,11 @@
 //  console.log(`Litera ${i} is ${myname[i].getTotalLength()}`);
 //}
 //window.onload = () => {
-  const gitHub = document.querySelector(".github");
-  gitHub.classList.add("active");
+
+window.onload = () => {
+  if (window.innerWidth <= 800) {
+    const name = document.getElementById("myname");
+    console.log(window.innerWidth);
+    name.setAttribute("width", "350");
+  }
 };
