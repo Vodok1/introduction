@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  overflow: hidden;
   font-family: "Anonymous Pro", monospace;
   color: white;
   width: 100%;
@@ -128,9 +129,6 @@ body {
   }
 }
 @media screen and (max-width: 1024px) {
-  body {
-    overflow: hidden;
-  }
   #myname {
     scale: 0.2;
   }
