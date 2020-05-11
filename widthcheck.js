@@ -4,10 +4,8 @@
 //}
 //window.onload = () => {
 
-window.onload = () => {
-  if (window.innerWidth <= 800) {
-    const name = document.getElementById("myname");
-    console.log(window.innerWidth);
-    name.setAttribute("width", "350");
-  }
-};
+if (window.innerWidth <= 800) {
+  const name = document.getElementById("myname");
+  console.log(window.innerWidth);
+  name.setAttribute("width", "350");
+}
