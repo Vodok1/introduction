@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Anonymous Pro", monospace;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: #111b25;
+}
+.email {
+  height: 10%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.email a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 20px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero img {
+  margin-top: 2rem;
+  width: 200px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 15px;
+}
+
+.github {
+  -webkit-box-shadow: 10px 10px 149px -18px rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.github a {
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#oneletter {
+  stroke-dasharray: 169px;
+  stroke-dashoffset: 169px;
+  animation: line-anim 2s ease forwards;
+}
+#twoletter {
+  stroke-dasharray: 305px;
+  stroke-dashoffset: 305px;
+  animation: line-anim 2s ease forwards 0.3s;
+}
+#threeletter {
+  stroke-dasharray: 332px;
+  stroke-dashoffset: 332px;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+#fourletter {
+  stroke-dasharray: 307px;
+  stroke-dashoffset: 307px;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+#fiveletter {
+  stroke-dasharray: 376px;
+  stroke-dashoffset: 376px;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+#sixletter {
+  stroke-dasharray: 376px;
+  stroke-dashoffset: 376px;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+#sevenletter {
+  stroke-dasharray: 304px;
+  stroke-dashoffset: 304px;
+  animation: line-anim 2s ease forwards 1.8s;
+}
+#eightletter {
+  stroke-dasharray: 307px;
+  stroke-dashoffset: 307px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+#nineletter {
+  stroke-dasharray: 314px;
+  stroke-dashoffset: 314px;
+  animation: line-anim 2s ease forwards 2.4s;
+}
+#tenletter {
+  stroke-dasharray: 304px;
+  stroke-dashoffset: 304px;
+  animation: line-anim 2s ease forwards 2.7s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
