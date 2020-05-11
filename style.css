@@ -131,8 +131,6 @@ body {
   }
 }
 @media screen and (max-width: 1024px) {
-  body {
-  }
   #myname {
     scale: 0.2;
   }
