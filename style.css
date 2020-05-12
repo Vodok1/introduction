@@ -46,7 +46,7 @@ body {
   height: 100px;
   min-width: 100%;
   background-color: white;
-  animation: githubanim 5s ease-out forwards 3.8s;
+  animation: githubanim 3s ease-in forwards 3.8s;
 }
 .github a {
   width: 100%;
